@@ -2,8 +2,8 @@
 
 Kubernetes is used to orchestrate Deploy and enable Horizontal Scaling of the application.
 
-Kubernets Diagram
-![Kubernets Diagram](Kubernets.drawio.png)
+Kubernetes Diagram
+![Kubernetes Diagram](kubernetes.drawio.png)
 
 ## Structure
 ```

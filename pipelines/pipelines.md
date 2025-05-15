@@ -3,7 +3,7 @@
 This API uses Github Action to automate linting, testing, building and deployment. This ensures a consitent development pattern and improve code safety, enabling continuous delivery.
 
 CI/CD Diagram
-![CI/CD Diagram](CICD.drawio.png)
+![CI/CD Diagram](cicd.drawio.png)
 
 ## Structure
 ```
