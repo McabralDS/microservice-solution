@@ -6,9 +6,10 @@ The structure prioritizes separation of concerns, framework independence, high c
 It also allows integration of chaching (Ex. Redis) and queues systems (Ex. RabbitMQ) if needed.
 
 
+API Architecture Diagram
+
 ![API Architecture Diagram](api.drawio.png)
 
-API Architecture Diagram
 
 ## Structure
 ```
@@ -50,9 +51,10 @@ api/
     - If necessary, the response can be delayed until the processing and database operations are completed.
     - A queuing mechanism may be applied to increase performance, reduce system load, and minimize the number of active service instances or clusters.
     
+    Workflow Diagram
+    
     ![Workflow Diagram](workflow.drawio.png)
 
-    Workflow Diagram
 
 ## Technical Decisions
 
