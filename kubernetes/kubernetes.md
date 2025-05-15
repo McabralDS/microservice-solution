@@ -33,18 +33,18 @@ kubernetes/
  - Liveness probe with route `GET /health` checking
  - Loads environment variables via ConfigMap
 
-    [View deployment.ymal](./deployment.yaml)
+    [View deployment.yaml](./deployment.yaml)
 
 ## Service
  - Type `LoadBalancer` to handle high request volume and allow external access
 
-    [View service.ymal](./service.yaml)
+    [View service.yaml](./service.yaml)
 
 ## Horizontal Pod Autoscaler
  - Automatic scales from 2 to 10 pods based on CPU and memory usage
  - Target of 70% of usage
 
-    [View hpa.ymal](./hpa.yaml)
+    [View hpa.yaml](./hpa.yaml)
 
 
 ## Roadmap

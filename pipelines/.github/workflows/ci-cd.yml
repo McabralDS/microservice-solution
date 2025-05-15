@@ -33,7 +33,7 @@ jobs:
         run: npm run build
 
       - name: Build Docker image
-        run: docker build -t my-app:latest .
+        run: docker build -t app:latest .
 
       - name: Setup kubectl
         uses: azure/setup-kubectl@v3

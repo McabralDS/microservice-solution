@@ -5,7 +5,7 @@ This microservice, designed to handle high load scenarios, has an automated test
 ## Unit Testing
 
  - Automated unit tests are implemented using `Vitest`, covering core business rules and edge cases.
- - The goal is to maintain a minimum of 90% code coverage across statements, branches, functions, and lines.
+ - The goal is to maintain a minimum of 80% code coverage across statements, branches, functions, and lines.
  - Unit tests are executed automatically as part of the CI/CD pipeline to prevent regressions and ensure code quality.
 
 ## Integration Test

@@ -23,7 +23,7 @@ container/
 
 
 ## docker-compose.yml
- ** Use for local development only**
+ - Use for local development only
  - Builds the API service image locally
  - Sets environment variables via .env or inline
  - Can link optional services (like MongoDB) only in dev

@@ -79,7 +79,7 @@ api/
 
 ## Test Covarage
 
-- Following a Test-Driven Development (TDD approach), the goal isto maintain at least 90% coverage, focusing in busines rules, edge cases, unit tests and integration scenarios.
+- Following a Test-Driven Development (TDD approach), the goal isto maintain at least 80% coverage, focusing in busines rules, edge cases, unit tests and integration scenarios.
 - `Vitest` is used for unit testing, and `Supertest` is used for HTTP-level integration tests.
 - Unit tests are written for specific business logic and utility functions.
 - Integration tests validate the behavior between layers and full request flows.
